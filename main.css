@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Inter", serif;
+}
+
+.container{
+    max-width: 1085px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header{
+    box-sizing: border-box;
+    border: 2px solid rgb(222, 219, 219);
+    background: rgb(255, 255, 255);
+    margin-bottom: 43px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 46px 0;
+}
+
+.language{
+    display: flex;
+    align-items: center;
+    gap: 0 15px;
+}
+
+.about_language{
+    color: #424242;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+}
+
+form{
+    width: 650px;
+    box-sizing: border-box;
+    border: 1px solid rgb(222, 219, 219);
+    border-radius: 50px;
+    background: rgb(255, 255, 255);
+    padding: 60px 60px 35px 55px;
+    margin: 0 auto;
+    margin-bottom: 55px;
+}
+
+.form_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 133px;
+}
+
+.offerta{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.text{
+    color: #f0400f;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+}
+
+h1{
+    color: #0e0d5d;
+    font-size: 48px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 58px;
+    margin-bottom: 11px;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    padding: 8px 50px 8px 11px;
+    border-radius: 20px;
+    background: rgb(245, 245, 245);
+    margin: 0 auto;
+    margin-bottom: 40px;
+    width: 533px;
+    gap: 0 42px;
+}
+
+.btn1{
+    padding: 10px 40px;
+    border-radius: 15px;
+    background: #ffffff;
+
+    color: #000000;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 34px;
+}
+
+.btn2{
+    color: #757575;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 34px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 40px 0;
+    margin-bottom: 18px;
+}
+
+input{
+    padding: 20px 50px;
+    box-sizing: border-box;
+    border: 1px solid #75757530;
+    border-radius: 20px;
+    background: rgb(250, 250, 250);
+
+    color: #757575b3;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    outline: none;
+}
+
+.qr_code{
+    color: #000000a3;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 35px;
+    display: block;
+}
+
+button{
+    padding: 17px 11px 16px 29px;
+    border-radius: 20px;
+    background: rgb(246, 158, 134);
+    border: none;
+
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    width: 202px;
+    line-height: 29px;
+    display: flex;
+    margin-left: auto;
+}
